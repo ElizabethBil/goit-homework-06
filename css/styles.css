@@ -4,15 +4,16 @@
     box-sizing: border-box;
 } */
 
-/* ALWAYS */
+/* =======/ALWAYS ======= */
 
-/* :root {
-  --primary-color: ;
-  --secondary-color: ;
-  --accent-color: ;
-} */
 
-body {
+
+
+/* ======= COMMON STYLES ======= */
+
+
+
+/* body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
@@ -63,17 +64,32 @@ img {
 
 button {
   cursor: pointer;
-}
+}  */
 
-.container {
+
+/* ======= /COMMON STYLES ======= */
+
+
+
+/* ======= CONTAINER STYLES ======= */
+
+
+/* .container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.section-title {
+
+/* ======= /CONTAINER STYLES ======= */
+
+
+/* ======= SECTION STYLES ======= */
+
+
+/* .section-title {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -82,13 +98,17 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-}
-
-/* .main {
-    flex-grow: 1;
 } */
 
-.visually-hidden {
+
+/* ======= /SECTION STYLES ======= */
+
+
+
+/* ======= UTILS_VISUALLY_HIDDEN ======= */
+
+
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -99,11 +119,30 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
+
+
+/* ======= /UTILS_VISUALLY_HIDDEN ======= */
+
+
+
+/* ======= UTILS_VARIABLES ======= */
+
+
+/* :root {
+  --primary-color: ;
+  --secondary-color: ;
+  --accent-color: ;
+} */
+
+
+/* ======= /UTILS_VARIABLES ======= */
+
+
 
 /* HEADER */
 
-.header {
+/* .header {
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
   position: sticky;
@@ -173,7 +212,7 @@ button {
     margin-top: 20px;
 } */
 
-.navigation-link:hover,
+/* .navigation-link:hover,
 .navigation-link:focus {
   color: #404bbf;
 }
@@ -212,7 +251,7 @@ button {
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
-}
+} */ */
 
 /* MAIN */
 
