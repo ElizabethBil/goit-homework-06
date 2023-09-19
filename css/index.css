@@ -9,5 +9,11 @@
 
 /* LAYOUT */
 @import "./layout/header.css";
-@import "./layout/main.css";
+/* main */
+@import "./layout/hero-section.css";
+@import "./layout/our-features-section.css";
+@import "./layout/our-team-section.css";
+@import "./layout/our-portfolio-section.css";
+@import "./layout/backdrop-modal-window.css";
+/* /main/ */
 @import "./layout/footer.css";

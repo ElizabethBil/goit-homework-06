@@ -49,3 +49,16 @@ img {
 button {
     cursor: pointer;
 }
+
+main {
+    flex-grow: 1;
+}
+
+.text-title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: #2e2f42;
+}

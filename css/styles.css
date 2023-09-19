@@ -254,7 +254,7 @@ button {
 } */ */
 
 /* MAIN */
-
+/* 
 main {
   flex-grow: 1;
 }
@@ -266,11 +266,11 @@ main {
   line-height: 1.2;
   letter-spacing: 0.4px;
   color: #2e2f42;
-}
+} */
 
 /* ====Hero====  */
 
-.hero-container {
+/* .hero-container {
   gap: 48px;
 }
 
@@ -289,8 +289,8 @@ main {
   max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
-}
-
+} */
+/* 
 .hero-title {
   color: #fff;
   font-size: 56px;
@@ -330,11 +330,11 @@ main {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
-}
+} */
 
 /* Our Features */
 
-.our-features-section {
+/* .our-features-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -381,11 +381,11 @@ main {
   padding: 24px 100px;
   width: 264px;
   height: 112px;
-}
+} */
 
 /* Our Team */
 
-.our-team {
+/* .our-team {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -458,11 +458,11 @@ main {
   text-align: center;
   gap: 8px;
   padding: 32px 0;
-}
+} */
 
 /* Our Portfolio */
 
-.our-portfolio {
+/* .our-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -541,8 +541,8 @@ main {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }*/
+
 
 /* FOOTER */
 
@@ -721,7 +721,7 @@ main {
 }
 
 /* ----BACKDROP AND MODAL WINDOW---- */
-
+/* 
 .backdrop {
   position: fixed;
   top: 0;
@@ -977,4 +977,4 @@ outline: transparent;
 .modal-submit-button:hover,
 .modal-submit-button:focus {
   background-color: #404bbf;
-}
+} */
