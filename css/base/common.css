@@ -1,64 +1,135 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #fff;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 .list {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-ul, ol {
-    list-style-type: none;
-    font-style: normal;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+ul,
+ol {
+  list-style-type: none;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .page-container {
-    min-height: 100vh;
-    flex-direction: column;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 main {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .text-title {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-    color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: #2e2f42;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .our-portfolio {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-portfolio-container {
+  align-content: center;
+}
+
+.our-portfolio-title {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.our-portfolio-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 72px;
+  gap: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-portfolio-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 48px;
+    row-gap: 72px;
+  }
+
+  .our-portfolio-list:nth-child(2n) {
+    column-gap: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .our-portfolio-list {
+    column-gap: 24px;
+    row-gap: 48px;
+    justify-content: center;
+  }
+
+  .our-portfolio-list:nth-child(2n + 1) {
+    column-gap: 0;
+  }
+} */
