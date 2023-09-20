@@ -69,13 +69,11 @@ border: 1px solid var(--CLOUD, #F4F4FD);
   .our-portfolio-list {
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 48px;
-    row-gap: 72px;
   }
 
-  .our-portfolio-list:nth-child(2n) {
-    column-gap: 0;
-  }
+    .our-portfolio-list:nth-child(2n) {
+      gap: 72px 24px;
+    }
   
 .our-portfolio-cards:hover .overlay-text {
     transform: translateY(0);
@@ -86,16 +84,15 @@ border: 1px solid var(--CLOUD, #F4F4FD);
 
 
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .our-portfolio-list {
-    column-gap: 24px;
-    row-gap: 48px;
+    
     justify-content: center;
   }
 
-  .our-portfolio-list:nth-child(2n + 1) {
-    column-gap: 0;
-  }
+    .our-portfolio-list:nth-child(2n + 1) {
+      gap: 48px 24px;
+    }
 
   .our-portfolio-cards {
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);

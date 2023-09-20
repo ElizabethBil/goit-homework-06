@@ -64,13 +64,15 @@
 /* MOBILE MENU */
 
 .mobile-menu {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   z-index: 9999999999;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  padding-left: 16px;
+  padding: 24px 16px 40px 16px;
   background-color: #FFF;opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -117,8 +119,8 @@
   display: flex;
 flex-direction: column;
 gap: 40px;
-padding-top: 72px;
-padding-bottom: 168px;
+margin-top: 48px;
+
 }
 
 .mobile-menu-navigation-links {
@@ -136,6 +138,19 @@ padding-bottom: 168px;
   position: relative;
 }
 
+
+
+.mobile-menu-links-container {
+  margin-top: auto;
+}
+
+.mobile-menu-navigation-address {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
 .mobile-menu-phone-link {
   color:#4D5AE5;
     font-size: 20px;
@@ -143,14 +158,6 @@ padding-bottom: 168px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     
-}
-
-.mobile-menu-address {
-  font-style: normal;
-  padding-bottom: 48px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
 }
 
 .address-link {
@@ -296,7 +303,7 @@ color: #434455;
 
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
 .web-studio {
         margin-right: 76px;
     }
@@ -305,5 +312,9 @@ color: #434455;
             flex-direction: row;
             gap: 40px;
         }
+
+                .address-link {
+                  font-size: 16px;
+                }
 }
 
