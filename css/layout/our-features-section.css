@@ -43,7 +43,7 @@
   .our-features-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
   }
 
   .our-features-item {
