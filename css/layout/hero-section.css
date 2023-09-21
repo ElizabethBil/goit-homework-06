@@ -135,7 +135,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
 
 
 
-@media screen and (min-resolution: 192dpi) and (max-width: 768px),
+/* @media screen and (min-resolution: 192dpi) and (max-width: 768px),
 screen and (min-resolution: 3dppx) and (max-width: 768px),
 screen and (min-device-pixel-ratio: 3) and (max-width: 768px) {
     .hero {
@@ -163,4 +163,4 @@ screen and (min-device-pixel-ratio: 3) and (min-width: 1158px) {
                 rgba(46, 47, 66, 0.7)),
             url(../../images/hero_background_laptop-x3.jpg);
     }
-} 
+}  */
